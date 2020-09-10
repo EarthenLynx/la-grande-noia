@@ -25,13 +25,13 @@ $ npm i -g @vue/cli
 To run this app, you need to download the source code of the Vue frontend and this repos and install the necessary dependencies
 
 ```
-$ git clone https://github.com/EarthenLynx/le-petite-noia
-$ cd le-petite-noia
-$ npm i
-$ cd ..
-$ git clone https://github.com/EarthenLynx/la-grande-noia
-$ cd la-grande-noia
-$ npm i
+git clone https://github.com/EarthenLynx/le-petite-noia
+cd le-petite-noia
+npm i
+cd ..
+git clone https://github.com/EarthenLynx/la-grande-noia
+cd la-grande-noia
+npm i
 ```
 
 In order to send mails in a productive environment, you will need to configure a few variables in the webapp, as well as serverside
@@ -44,8 +44,8 @@ In order to send mails in a productive environment, you will need to configure a
 
 > The backend uses an express MVC setup and the [dotenv package](https://www.npmjs.com/package/dotenv) to handle configuration variables. In there, you need to add the following: 
 
-SMTP_ADRESS=[The SMTP adress of your email provider]
-PORT=[The smtp's server port]
-USER=[Email adress or username of the email server]
-PASS=[Password of the email server]
-ENVIRONMENT=[Environment node runs on. Should be development for local setups]
+> SMTP_ADRESS=[The SMTP adress of your email provider]
+> PORT=[The smtp's server port]
+> USER=[Email adress or username of the email server]
+> PASS=[Password of the email server]
+> ENVIRONMENT=[Environment node runs on. Should be development for local setups]
