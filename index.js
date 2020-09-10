@@ -1,6 +1,6 @@
 const express = require('express')
 const nodemailer = require("nodemailer");
-const port = 4210
+const port = process.env.PORT || 3000
 const app = express()
 
 require('dotenv').config()
@@ -81,4 +81,4 @@ app.post("/sendmail", (req, res) => {
   send().catch(console.error);
 });
 
-app.listen(port, () => console.log(`Example app listening on port 4210!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
