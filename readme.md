@@ -1,6 +1,6 @@
 # 🐙 La grande noia
 
-> **Invite your friends to events**
+> **Find time killers and invite your friends**
 
 The first result I got when using the API behind this app was 'Give your pet 10 minutes of attention'. Now since I lack a real pet, I expanded those 10 mins and gave the attention to the internet. I was curious on trying out Spectre.css and ended up with an application I could use as my crystal ball when looking for activities to kill some time. I've also included a backend Email sending service that might come in handy some time.
 
